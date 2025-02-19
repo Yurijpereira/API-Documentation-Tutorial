@@ -57,6 +57,8 @@ dotnet watch run
 For a complete guide, check out the documentation.
 ```
 
+---
+
 ## 📌 API Endpoints Overview
 | Method  | Endpoint             | Description         |
 |---------|----------------------|---------------------|
@@ -72,14 +74,20 @@ For detailed API usage, check the documentation:
 - 🇬🇧 [English API Guide](en/README.md)
 - 🇧🇷 [Guia da API em Português](pt/README.md)
 
+---
+
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
 
 ## 🤝 Contributing
 Contributions are welcome! If you find any issues or have suggestions, feel free to:
 
 - Open an Issue 💬
 - Submit a Pull Request 🚀
+
+---
 
 ## 🔗 Useful Links
 - [Official .NET 7 Documentation](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
