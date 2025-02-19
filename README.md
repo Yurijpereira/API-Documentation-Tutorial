@@ -4,8 +4,8 @@ Welcome to the **Customer API** documentation! This project provides a RESTful A
 
 ## 📌 Language Selection | Seleção de Idioma
 
-- 🇬🇧 **[English Version](docs/en/README.md)**
-- 🇧🇷 **[Versão em Português](docs/pt/README.md)**
+- 🇬🇧 **[English Version](en/README.md)**
+- 🇧🇷 **[Versão em Português](pt/README.md)**
 
 ---
 
