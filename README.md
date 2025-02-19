@@ -93,4 +93,4 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 - [Official .NET 7 Documentation](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - [Entity Framework Core Docs](https://learn.microsoft.com/en-us/ef/core/)
 - [GitHub Repository](https://github.com/Yurijpereira/API-Documentation-Tutorial)
-- [Live Documentation on GitHub Pages](https://yurijpereira.github.io/API-Documentation-Tutorial/)
+- [Live Documentation on GitHub Pages](https://yurijpereira.github.io/API-Tutorial-Documentation/)
