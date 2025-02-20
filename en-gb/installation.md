@@ -36,7 +36,7 @@ cd CustomersAPI
 
 ---
 
-## 📖 3. Opening the Project in Visual Studio\
+## 📖 3. Opening the Project in Visual Studio
 
 If you're using Visual Studio, open the newly created project via "Open a project or solution" and select the CustomersAPI folder.
 
