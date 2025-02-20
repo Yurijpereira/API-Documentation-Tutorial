@@ -15,16 +15,19 @@ Após a instalação, verifique se o **.NET** foi instalado corretamente executa
 ```powershell
 dotnet --version
 ```
+
 Se o comando retornar um número de versão (por exemplo, 7.0.15), a instalação foi concluída com sucesso.
 
 ---
 
 ## 📖 2. Criando o Projeto
+
 Agora, crie um novo projeto no diretório desejado usando o seguinte comando:
 
 ```powershell
 dotnet new web -o ClientesAPI -f net7.0
 ```
+
 Isso criará um novo projeto ASP.NET Core chamado ClientesAPI. Em seguida, entre no diretório do projeto:
 
 ```powershell
@@ -34,6 +37,7 @@ cd ClientesAPI
 ---
 
 ## 📖 3. Abrindo o Projeto no Visual Studio
+
 Se estiver usando o Visual Studio, abra o projeto recém-criado através da opção "Open a project or solution" e selecione a pasta ClientesAPI.
 
 Caso prefira usar o Visual Studio Code, execute:
@@ -41,11 +45,13 @@ Caso prefira usar o Visual Studio Code, execute:
 ```powershell
 code .
 ```
+
 Isso abrirá o projeto diretamente no VS Code.
 
 ---
 
 ## 📖 4. Instalando o Entity Framework Core
+
 Dentro do projeto, você precisa instalar o Entity Framework Core, que gerenciará o banco de dados.
 
 Abra o Gerenciador de Pacotes NuGet no Visual Studio:
@@ -55,6 +61,7 @@ Abra o Gerenciador de Pacotes NuGet no Visual Studio:
 3. Selecione Microsoft.EntityFrameworkCore e instale a versão mais recente (atualmente 7.0.15).
 4. Instale também o pacote Microsoft.EntityFrameworkCore.SqlServer para conectar ao SQL Server.
 5. Para suporte a migrations, instale Microsoft.EntityFrameworkCore.Design.
+
 Se preferir instalar via terminal, execute os seguintes comandos dentro do diretório do projeto:
 
 ```powershell
@@ -66,6 +73,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 ---
 
 ## 📖 5. Configurando o Banco de Dados
+
 Agora, vamos preparar a conexão com o banco de dados. No diretório do projeto, crie uma pasta chamada Data e adicione a classe AppDbContext:
 
 ```csharp
@@ -87,6 +95,7 @@ Para verificar diferentes formatos de Connection Strings, consulte: 🔗 [Connec
 ---
 
 ## 📖 6. Criando a Primeira Migration
+
 Agora, vamos criar a primeira migration para inicializar o banco de dados.
 
 No terminal, execute:
@@ -95,16 +104,19 @@ No terminal, execute:
 dotnet ef migrations add InitialCreation
 dotnet ef database update
 ```
+
 Se tudo estiver correto, o banco de dados será criado com a tabela necessária.
 
 ---
 
 ## 📖 7. Executando a API
+
 Agora, inicie a API com o comando:
 
 ```powershell
 dotnet watch run
 ```
+
 A API estará rodando e pronta para ser testada no Postman ou no navegador!
 
 ✅ A instalação e configuração da API estão concluídas! 🚀
