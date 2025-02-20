@@ -122,4 +122,4 @@ The API will be running and ready to test in Postman or a browser!
 
 ---
 
-### 📌 **[Versão em Português](../pt-br/installation.md)**
+### 📌 **[Versão em Português](../pt-br/instalacao.md)**
