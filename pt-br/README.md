@@ -7,6 +7,9 @@ Bem-vindo à documentação da **Customer API**! Este guia ajudará você a inst
 - [Configuração do Banco de Dados](banco.md)
 - [Criando Controllers](controllers.md)
 - [Métodos da API (GET, POST, PUT, DELETE)](metodos-api.md)
+- [Configuração de Variáveis de Ambiente](ambiente.md)
+- [Testando a API](testando.md)
+- [Deploy da API](deploy.md)
 
 ---
 

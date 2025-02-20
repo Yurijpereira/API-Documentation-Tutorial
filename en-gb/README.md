@@ -7,6 +7,9 @@ Welcome to the **Customer API** documentation! This guide will help you install,
 - [Database Configuration](database.md)
 - [Creating Controllers](controllers.md)
 - [API Methods (GET, POST, PUT, DELETE)](api-methods.md)
+- [Environment Variables](environment.md)
+- [Testing the API](testing.md)
+- [Deploying the API](deploy.md)
 
 ---
 
