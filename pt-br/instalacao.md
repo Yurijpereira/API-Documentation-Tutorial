@@ -123,4 +123,4 @@ A API estará rodando e pronta para ser testada no Postman ou no navegador!
 
 ---
 
-### 📌 **[English Version](en-gb/installation.md)**
+### 📌 **[English Version](../en-gb/installation.md)**
