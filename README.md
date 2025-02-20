@@ -21,44 +21,6 @@ This API allows developers to **create, retrieve, update, and delete** customer 
 
 ---
 
-## 🚀 Getting Started
-
-### 📌 1. Clone this repository:
-```bash
-git clone https://github.com/SEU_USUARIO/NOME_REPOSITORIO.git
-cd NOME_REPOSITORIO
-```
-
-### 📌 2. Install .NET 7 SDK:
-[Download .NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-
-### 📌 3. Set up the project:
-```bash
-dotnet new web -o CustomersAPI -f net7.0
-cd CustomersAPI
-```
-
-### 📌 4. Install dependencies:
-```bash
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-dotnet add package Microsoft.EntityFrameworkCore.Design
-```
-
-### 📌 5. Configure and apply database migrations:
-```bash
-dotnet ef migrations add InitialCreation
-dotnet ef database update
-```
-
-### 📌 6. Run the API:
-```bash
-dotnet watch run
-For a complete guide, check out the documentation.
-```
-
----
-
 ## 📌 API Endpoints Overview
 | Method  | Endpoint             | Description         |
 |---------|----------------------|---------------------|
@@ -67,12 +29,6 @@ For a complete guide, check out the documentation.
 | **POST** | `/v1/customers`      | Create a new customer |
 | **PUT**  | `/v1/customers/{id}` | Update a customer  |
 | **DELETE** | `/v1/customers/{id}` | Delete a customer  |
-
-
-For detailed API usage, check the documentation:
-
-- 🇬🇧 [English API Guide](en-gb/README.md)
-- 🇧🇷 [Guia da API em Português](pt-br/README.md)
 
 ---
 
