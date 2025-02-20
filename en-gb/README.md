@@ -38,4 +38,4 @@ Detailed API endpoints and examples are available in **[API Methods](api-methods
 
 ## 🌍 Language Selection
 - 🇬🇧 **English Version** (You are here)
-- 🇧🇷 **[Versão em Português](../pt/README.md)**
+- 🇧🇷 **[Versão em Português](../pt-br/README.md)**

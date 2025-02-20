@@ -37,5 +37,5 @@ Detalhes sobre endpoints e exemplos de uso estão disponíveis em **[Métodos da
 ---
 
 ## 🌍 Seleção de Idioma
-- 🇬🇧 **[English Version](../en/README.md)**
+- 🇬🇧 **[English Version](../en-gb/README.md)**
 - 🇧🇷 **Versão em Português** (Você está aqui)
